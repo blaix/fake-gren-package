@@ -1,19 +1,22 @@
-# Nix Shell Template for Gren
+# Fake gren package
 
-This is a template to use [gren](https://gren-lang.org/)
-in an isolated [nix shell](https://nixos.wiki/wiki/Development_environment_with_nix-shell)
-that automatically loads with [direnv](https://direnv.net/).
+This is a fake package to test [the gren package site](https://packages.gren-lang.org/).
 
-## Requirements
+Here's some code:
 
-* [nix](https://nix.dev/install-nix.html)
-* [direnv](https://direnv.net/)
-* Optional but highly recommended: [nix-direnv](https://github.com/nix-community/nix-direnv)
-* Optional: [degit](https://github.com/Rich-Harris/degit) (otherwise just copy this repo however you want)
+```elm
+one = "two"
+two = "three"
+```
 
-## Usage
+and a chart:
 
-1. `degit blaix/nix-shell-gren my-gren-project`
-2. `cd my-gren-project`
-3. `direnv allow`
-4. `gren init` 🎉
+```mermaid
+flowchart LR
+  A --> B
+  B --> C
+  C --> D
+  D --> B
+```
+
+Neat!
