@@ -1,0 +1,13 @@
+{
+    "type": "package",
+    "platform": "common",
+    "name": "blaix/fake-gren-package",
+    "summary": "A fake package for testing the gren package site",
+    "license": "BSD-3-Clause",
+    "version": "1.0.0",
+    "exposed-modules": [],
+    "gren-version": "0.3.0 <= v < 0.4.0",
+    "dependencies": {
+        "gren-lang/core": "4.0.2 <= v < 5.0.0"
+    }
+}
