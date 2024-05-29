@@ -1,0 +1,22 @@
+module Clicker exposing (click)
+
+{-| Clicker Module
+
+It's like this:
+
+```mermaid
+flowchart TD
+    Clicker -- Click --> clicked
+    Clicker -- No click --> nothing
+```
+
+**And there you have it!**
+
+@docs click
+
+-}
+
+{-|-}
+click : String
+click =
+    "clicked"
