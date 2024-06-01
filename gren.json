@@ -4,7 +4,7 @@
     "name": "blaix/fake-gren-package",
     "summary": "A fake package for testing the gren package site",
     "license": "BSD-3-Clause",
-    "version": "1.0.2",
+    "version": "1.0.4",
     "exposed-modules": [
       "Clicker"
     ],
