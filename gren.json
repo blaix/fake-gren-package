@@ -1,15 +1,16 @@
 {
     "type": "package",
-    "platform": "common",
+    "platform": "browser",
     "name": "blaix/fake-gren-package",
-    "summary": "A fake package for testing the gren package site",
+    "summary": "A fake gren package for testing",
     "license": "BSD-3-Clause",
-    "version": "1.0.4",
+    "version": "2.0.0",
     "exposed-modules": [
-      "Clicker"
+        "Clicker"
     ],
-    "gren-version": "0.3.0 <= v < 0.4.0",
+    "gren-version": "0.6.0 <= v < 0.7.0",
     "dependencies": {
-        "gren-lang/core": "4.0.2 <= v < 5.0.0"
+        "gren-lang/browser": "6.0.0 <= v < 7.0.0",
+        "gren-lang/core": "7.0.0 <= v < 8.0.0"
     }
 }
